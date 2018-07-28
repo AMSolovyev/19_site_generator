@@ -12,10 +12,12 @@ There are the files in the folders:
 
 # How to use
 
+```
 1. virtualenv -p python3 env
 2. source env/bin/activate
 3. pip install -r requirements.txt
 4. python manage_site.py /home/solo/git/19_site_generator/config.json
+```
 
 # Project Goals
 
