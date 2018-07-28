@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="article-title">{{title_page|e}}</div>
+  <br/>
+  <a href="/" class="btn">Содержание</a>  
+  <br/>
+  <br/>
+  <br/>
+  <article class="markdown-content">
+    {% markdown %}{{ content }}{% endmarkdown %}
+  </article>
+  <div class="cleafix"></div>
+{% endblock %}

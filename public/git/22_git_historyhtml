@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html lang='ru' xml:lang='ru'  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>История</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <br/>        
+        <h2><a href="https://github.com/andeniel/19_site_generator" class="ease">Генератор сайтов</a></h2>        
+        <br/>
+        <div class="content">
+            
+  <div class="article-title">История</div>
+  <br/>
+  <a href="/" class="btn">Содержание</a>  
+  <br/>
+  <br/>
+  <br/>
+  <article class="markdown-content">
+    <p>История изменений в коде очень важна при работе в команде. По ней программисты ориентируются.</p>
+<p>Такие емкие комментарии как "исправлено", "обновлено", "сделано" не только бесполезны, но
+они заставляют вычитывать код чтобы разобраться в смысле изменений внесенных кем-то другим. 
+Это время и нервы помноженные на размер команды. Не делай так!</p>
+<p>Вот тут написано как надо делать:</p>
+<ul>
+<li><a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">A Note About Git Commit Messages</a> (en)</li>
+<li><a href="http://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a> (en)</li>
+</ul>
+  </article>
+  <div class="cleafix"></div>
+
+        </div>
+    </div>
+</body>
+</html>

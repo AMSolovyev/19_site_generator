@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h1>Энциклопедия</h1>
+  <p>Знания, необходимые для старта. Коротко. Ясно. В сжатом виде.</p>
+  <br/>
+  {% for topic in topics %}
+    <div class="topic-list">
+      <h3>{{ topic.title|e}}</h3>
+      <ul>
+        {% for article in topic.articles %}
+         <li>
+           <a href="{{article.destiny}}">{{ article.title|e }}</a>
+         </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+  <div class="cleafix"></div>
+{% endblock %}

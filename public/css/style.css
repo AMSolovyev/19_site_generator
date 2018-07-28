@@ -1,0 +1,123 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+}
+
+a,
+img {
+    border: 0px;
+    outline: none;
+}
+
+:before,
+ :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    background-color:#f2f2f2;     
+    height: 100%;   
+}
+.article-title{
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    margin: 0px;
+    font-weight: normal;
+    padding: 0px;
+    line-height: 140%;
+    font-style: italic;
+}
+a{
+    color: #2368b3;
+    text-decoration: none;
+    border-bottom:1px solid transparent;
+
+}
+a:hover{
+    color:#b32335;
+    border-bottom:1px solid #b32335;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding:20px;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+.cleafix {
+    clear: both;
+}
+
+.btn {
+    font-family: "samsungone700", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363636;
+    border-radius: 8px;
+    border: solid 2px #363636;
+    text-decoration: none;
+    padding: 11px 28px 10px 29px;
+}
+
+.btn:hover {
+    background-color: #363636;
+    color: #fff;
+    border: solid 2px #363636;
+}
+.topic-list{
+    float:left;
+    width: 50%;
+    margin-bottom:30px;
+}
+
+.topic-list h3{
+    margin:0px;
+    padding:0px; 
+}
+.topic-list ul{    
+    line-height: 165%;
+    padding-left: 35px;
+}
+article{
+    line-height: 167%;
+}
+@media(max-width:768px) {
+    .topic-list{
+        float:none;
+        width:100%;
+    }    
+}
