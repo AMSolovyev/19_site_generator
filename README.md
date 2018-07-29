@@ -8,7 +8,7 @@ There are the files in the folders:
 - ```templates``` - the static pages generation template, `layout.html`, `index.html`, `page.html`;
 - ```public``` - results
 
-[The result](https://AMSolovyev.github.io/19_site_generator/public/index.html)
+[The result](https://amsolovyev.github.io/19_site_generator/public/index.html)
 
 # How to use
 
